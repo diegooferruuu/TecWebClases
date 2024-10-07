@@ -23,3 +23,19 @@ div{
     width: 150px;
     height: 150px;
 }
+
+#foo{
+    color: orange;
+}
+
+a[title]{
+    color: green;
+}
+
+button:hover{
+    background-color: green;
+}
+
+input:disabled{
+    border: 2px solid orange;
+}
