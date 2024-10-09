@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+     <style>
+        #outer a{
+            background-color: red;
+        }
+        #outer #inner a{
+            background-color: blue;
+        }
+        
+     </style>
 </head>
 <body>
-    <a href="#" title="AAAAAAA">AAAAAA</a>
-    <div class="caja1"></div>
-    <div class="caja2"></div>
-    <div class="caja3"></div>    
-
-    <form>
-        <input type="date" disabled>
-        <button>Boton</button>
-    </form>
+    <div id="outer">
+        <div id="inner">
+            <a href="">HOLA MUNDO</a>
+        </div>
+    </div>
 </body>
 </html>
